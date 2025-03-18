@@ -7,6 +7,7 @@ index.html.
     <title>Portafolio de David</title>
     <link rel="stylesheet" href="style.css"> <!-- Enlaza el archivo CSS -->
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
     <header>
         <h1>David</h1>
