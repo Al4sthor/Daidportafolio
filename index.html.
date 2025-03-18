@@ -8,6 +8,9 @@ index.html.
     <link rel="stylesheet" href="style.css"> <!-- Enlaza el archivo CSS -->
 </head>
 <link rel="stylesheet" href="style.css">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
     <header>
         <h1>David</h1>
