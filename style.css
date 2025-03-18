@@ -35,3 +35,27 @@ a {
 a:hover {
     text-decoration: underline;
 }
+body {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: white; /* Hace que el texto sea visible */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Animación del fondo */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+h1 {
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Definimos la animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
